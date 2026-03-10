@@ -3,19 +3,28 @@ layout: default
 title: Home
 ---
 
-<section style="text-align: center; padding: 3rem 0;">
-    <h1>Welcome to The Art of Software</h1>
-    <p>Building high-end digital experiences, one line of code at a time—entirely from mobile.</p>
-    <a href="{{ '/tutorials' | relative_url }}" class="btn-tutorial">🚀 Explore Tutorials</a>
+<section class="hero-banner">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1 class="hero-title">The Art of Software</h1>
+            <p class="hero-subtitle">Engineering high-end digital experiences, crafted entirely from a mobile device.</p>
+            <div class="hero-buttons">
+                <a href="{{ '/tutorials' | relative_url }}" class="btn-primary">🚀 Start Learning</a>
+                <a href="{{ '/about' | relative_url }}" class="btn-secondary">Our Story</a>
+            </div>
+        </div>
+    </div>
 </section>
 
-<hr>
+<div class="container">
+    <h2>Latest From the Lab</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <span class="post-date">{{ post.date | date: "%b %d" }}</span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
 
-<h2>Latest Posts</h2>
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%b %d, %Y" }}
-    </li>
-  {% endfor %}
-</ul>
