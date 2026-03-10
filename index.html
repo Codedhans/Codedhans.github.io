@@ -17,14 +17,17 @@ title: Home
 </section>
 
 <div class="container">
-    <h2>Latest From the Lab</h2>
+    <h2>Latest Tech News</h2>
     <ul class="post-list">
-      {% for post in site.posts limit:5 %}
-        <li>
-          <span class="post-date">{{ post.date | date: "%b %d" }}</span>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% assign news_posts = site.posts | where_exp: "item", "item.category != 'tutorial'" %}
+      {% for post in news_posts limit:3 %}
+        <li style="margin-bottom: 20px; list-style: none; border-left: 3px solid var(--peru); padding-left: 15px;">
+          <span class="post-date" style="color: #888; font-size: 0.8rem;">{{ post.date | date: "%b %d" }}</span><br>
+          <a href="{{ post.url | relative_url }}" style="color: var(--navy); font-weight: bold; text-decoration: none; font-size: 1.1rem;">
+            {{ post.title }}
+          </a>
         </li>
       {% endfor %}
     </ul>
+    <a href="{{ '/blog' | relative_url }}" class="read-more-link">View All News →</a>
 </div>
-
