@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+
+<section style="text-align: center; padding: 3rem 0;">
+    <h1>Welcome to The Art of Software</h1>
+    <p>Building high-end digital experiences, one line of code at a time—entirely from mobile.</p>
+    <a href="{{ '/tutorials' | relative_url }}" class="btn-tutorial">🚀 Explore Tutorials</a>
+</section>
+
+<hr>
+
+<h2>Latest Posts</h2>
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%b %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
