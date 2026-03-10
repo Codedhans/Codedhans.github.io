@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | The Codedhans</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/contact' | relative_url }}">Contact</a>
+    </div>
+
+    <header>
+        <span class="menu-icon" onclick="openNav()">&#9776; Menu</span>
+        <h1 class="logo">The Codedhans</h1>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/codedhans" target="_blank"><i data-lucide="github"></i></a>
+            <a href="mailto:codedspace1@gmail.com"><i data-lucide="mail"></i></a>
+        </div>
+        <p>&copy; 2026 The Codedhans. Built on Mobile.</p>
+    </footer>
+
+    <script>
+        function openNav() { document.getElementById("mySidebar").style.width = "250px"; }
+        function closeNav() { document.getElementById("mySidebar").style.width = "0"; }
+        lucide.createIcons();
+    </script>
+</body>
+</html>
