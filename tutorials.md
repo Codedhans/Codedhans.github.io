@@ -11,6 +11,8 @@ permalink: /tutorials/
 
 <div class="tutorial-grid">
     {% assign tutorials = site.posts | where: "category", "tutorial" %}
+{% for post in tutorials %}
+    {% endfor %}
     {% for post in tutorials %}
     <div class="tutorial-card">
         <div class="card-meta">
