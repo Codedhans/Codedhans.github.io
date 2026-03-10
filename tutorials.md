@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tutorials
+permalink: /tutorials/
 ---
 
 <div class="page-header">
