@@ -119,3 +119,67 @@ footer { text-align: center; padding: 2rem; background: #ddd; margin-top: 50px; 
     .hero-banner { height: 350px; }
     .hero-title { font-size: 1.8rem; }
     }
+/* Tutorials Page Specific Styles */
+.page-header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid var(--peru);
+    margin: -20px -20px 40px -20px; /* Aligns with the container edges */
+}
+
+.tutorial-grid {
+    display: grid;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.tutorial-card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid var(--peru);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.tutorial-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.tag { color: var(--peru); text-transform: uppercase; }
+.date { color: #888; }
+
+.tutorial-card h2 {
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+
+.tutorial-card h2 a {
+    color: var(--navy);
+    text-decoration: none;
+}
+
+.read-more-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: var(--peru);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 50px;
+    color: #666;
+    font-style: italic;
+}
