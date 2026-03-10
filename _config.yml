@@ -1,0 +1,13 @@
+title: The Codedhans
+email: codedspace1@gmail.com
+description: Art of Software.
+baseurl: "" # Empty because we are at the root domain
+url: "https://codedhans.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Fixes the date/time issues on mobile
+future: true
