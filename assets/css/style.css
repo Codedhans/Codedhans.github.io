@@ -183,3 +183,23 @@ footer { text-align: center; padding: 2rem; background: #ddd; margin-top: 50px; 
     color: #666;
     font-style: italic;
 }
+/* Responsive Post Images */
+.post-header-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-bottom: 5px solid var(--peru);
+    margin-top: -20px; /* Aligns with container if needed */
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.post-content h2 { margin-top: 50px; }
