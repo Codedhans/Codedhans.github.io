@@ -11,17 +11,37 @@
 </head>
 <body>
 
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-       
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+    <div class="sidebar-section">
         <a href="{{ '/' | relative_url }}">Home</a>
-       <a href="{{ '/blog' | relative_url }}">Blog</a>
+        <a href="{{ '/blog' | relative_url }}">Blog</a>
         <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
-        <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
+        <a href="{{ '/portfolio' | relative_url }}">Portfolio</a>
         <a href="{{ '/about' | relative_url }}">About</a>
-        <a href="{{ '/contact' | relative_url }}">Contact</a>
     </div>
 
+    <hr style="border: 0.5px solid #444; margin: 20px 0;">
+
+    <div class="sidebar-ads" style="padding: 0 15px;">
+        <h4 style="color: var(--peru); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Recommended Tools</h4>
+        
+        <p style="font-size: 0.75rem; color: #ccc; line-height: 1.4;">The gear I use for mobile-first development:</p>
+        
+        <ul style="list-style: none; padding: 0; font-size: 0.85rem;">
+            <li style="margin-bottom: 10px;">
+                <a href="YOUR_AFFILIATE_LINK_HERE" style="padding: 0; display: inline; color: var(--white); text-decoration: underline;">Best Coding Keyboard</a>
+            </li>
+            <li style="margin-bottom: 10px;">
+                <a href="YOUR_AFFILIATE_LINK_HERE" style="padding: 0; display: inline; color: var(--white); text-decoration: underline;">Top Mobile IDE</a>
+            </li>
+            <li style="margin-bottom: 10px;">
+                <a href="YOUR_AFFILIATE_LINK_HERE" style="padding: 0; display: inline; color: var(--white); text-decoration: underline;">Hosting for Devs</a>
+            </li>
+        </ul>
+    </div>
+    </div>
     <header>
         <span class="menu-icon" onclick="openNav()">&#9776; Menu</span>
         <h1 class="logo">The Codedhans</h1>
