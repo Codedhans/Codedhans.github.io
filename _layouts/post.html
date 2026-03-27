@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="post-container container" style="padding-top: 50px; padding-bottom: 50px;">
+  
+  <header class="post-header" style="margin-bottom: 30px;">
+    <h1 style="color: var(--navy); font-size: 2.5rem;">{{ page.title }}</h1>
+    <p style="color: #888; font-size: 0.9rem;">
+      Published on {{ page.date | date: "%B %d, %Y" }} by {{ page.author | default: "Codedhans" }}
+    </p>
+  </header>
+
+  <div class="post-content" style="line-height: 1.8; color: #333;">
+    {{ content }}
+  </div>
+
+  <div class="support-box" style="background: #fdfaf6; padding: 25px; border-radius: 8px; border-left: 5px solid var(--peru); margin-top: 60px;">
+    <h3 style="margin-top: 0; color: var(--navy); font-size: 1.2rem;">Support The Art of Software</h3>
+    <p style="font-size: 0.95rem; margin-bottom: 15px;">If you found this tutorial helpful, consider using my links to the tools I use. It helps keep <strong>The Codedhans</strong> running!</p>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+        <li style="margin-bottom: 12px;">🚀 <a href="YOUR_LINK" style="color: var(--navy); font-weight: bold; text-decoration: underline;">Get my Mobile Coding Setup</a></li>
+        <li>🌐 <a href="YOUR_LINK" style="color: var(--navy); font-weight: bold; text-decoration: underline;">Best Hosting for Jekyll Sites</a></li>
+    </ul>
+  </div>
+
+    </article>
