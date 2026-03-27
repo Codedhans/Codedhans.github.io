@@ -192,7 +192,47 @@ footer { text-align: center; padding: 2rem; background: #ddd; margin-top: 50px; 
     border-bottom: 5px solid var(--peru);
     margin-top: -20px; /* Aligns with container if needed */
 }
+/* Portfolio Grid Styling */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 30px;
+    padding-bottom: 50px;
+}
 
+.portfolio-item {
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-bottom: 4px solid var(--peru);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio-info {
+    padding: 20px;
+}
+
+.portfolio-info h3 {
+    margin: 0 0 10px 0;
+    color: var(--navy);
+}
+
+.portfolio-info p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Desktop support just in case */
+@media screen and (min-width: 768px) {
+    .portfolio-grid { grid-template-columns: 1fr 1fr; }
+}
 .post-content img {
     max-width: 100%;
     height: auto;
