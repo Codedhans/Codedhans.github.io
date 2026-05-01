@@ -32,7 +32,7 @@ Go introduced **Goroutines**.
 
 Imagine a traditional thread is a massive semi-truck, while a Goroutine is a nimble bicycle. You can fit thousands of bicycles on a road that would be choked by just a few trucks. This lightweight concurrency model is why Go can handle massive scale on tiny, cost-effective cloud instances. It’s why platforms like Twitch, Uber, and Netflix have migrated their core infrastructure to Go.
 
-### Storytelling: The Developer Who Reclaimed Their Weekend
+### The Developer Who Reclaimed Their Weekend
 
 I recently spoke with a lead engineer at a fintech startup who was drowning in technical debt. Their Python-based backend was struggling to keep up with their user growth. Every weekend was spent "scaling up" (which really just meant paying Amazon more money for bigger servers).
 
