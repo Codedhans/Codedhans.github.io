@@ -11,5 +11,5 @@ plugins:
   - jekyll-sitemap  # Add this if it's missing
 
 # Fixes the date/time issues on mobile
-future: true
+future: false
  
