@@ -36,7 +36,7 @@ For example, some of the highest-earning creators on platforms like Selar and Pr
 
 ![Infographic: High-Demand Digital Assets in 2026](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000)
 
-### Storytelling: Why Your "Why" is Your Best Marketing
+### Why Your "Why" is Your Best Marketing
 
 Last month, I launched a small automation toolkit for freelance designers. I didn't lead with the features. I led with the story of the time I missed my best friend's birthday dinner because I was stuck manually resizing 200 social media assets.
 
