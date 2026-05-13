@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The 2026 Freelance Gold Mine: How I Scaled from Pennies to Profits"
-date: 2026-05-05 09:00:00 +0000
+date: 2026-05-13 09:00:00 +0000
 categories: [Freelancing, Career]
 image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200
 ---
