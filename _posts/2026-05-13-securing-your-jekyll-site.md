@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Invisible Fortress: Hardening Your Jekyll Site for the 2026 Web"
-date: 2026-05-13 09:00:00 +0000
+date: 2026-05-20 09:00:00 +0000
 categories: [Programming, Security]
 image: https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1200
 ---
