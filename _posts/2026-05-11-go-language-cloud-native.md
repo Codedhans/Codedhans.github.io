@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Speed of Simplicity: Why Go is the Engine of the 2026 Cloud"
-date: 2026-05-11 09:00:00 +0000
+date: 2026-05-18 09:00:00 +0000
 categories: [Programming, Go]
 image: https://images.unsplash.com/photo-1518433278981-0ad5222e53c3?auto=format&fit=crop&q=80&w=1200
 ---
