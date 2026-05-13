@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Unstoppable Rise of Rust: Why Safety is the New Performance"
-date: 2026-05-14 09:00:00 +0000
+date: 2026-05-13 09:00:00 +0000
 categories: [Programming, Rust]
 image: /assets/images/rust-performance-infographic.jpg
 ---
