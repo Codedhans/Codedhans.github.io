@@ -1,4 +1,4 @@
-title: The Codedhans
+title: Codedhans
 email: codedspace1@gmail.com
 description: Art of Software.
 baseurl: "" # Empty because we are at the root domain
@@ -8,11 +8,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap  # Add this if it's missing
+  - jekyll-sitemap
 
-# Fixes the date/time issues on mobile
+# Allows future posts to be published
 future: false
-on:
-  schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
- 
+
+# Optional: Uncomment if you want GitHub Actions to build automatically
+# on:
+#   schedule:
+#     - cron: '0 0 * * *' # Runs daily at midnight
